@@ -1,0 +1,53 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: $myrtle-blue;
+  flex-basis: 240px;
+  flex-shrink: 0;
+}
+
+.list-group.list-group-clear a.list-group-item {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.brand {
+  font-family: Shrikhand, serif;
+  text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.product {
+  font-family: Passion One, sans-serif;
+  vertical-align: top;
+  border-radius: 0.25rem;
+  text-shadow: 1px 1px 0 rgba(140, 140, 140, 0.6), 0 0 1px rgba(0, 0, 0, 0.67);
+}
+
+#sidebar .header {
+  padding: 0.5rem 0;
+  background-color: $myrtle-blue-darkest;
+  background-image: url('/public/assets/themes/admin/beach/images/textures/diagmonds.png');
+}
+
+#logo {
+  margin-bottom: 0;
+}
+
+#logo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#sidebar .list-group a.list-group-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#sidebar .list-group > a.list-group-item {
+  font-size: 14px;
+}
+
+#sidebar .list-group a.list-group-item:hover,
+#sidebar .list-group a.list-group-item.active {
+  background-color: $myrtle-blue-dark;
+  color: #ffffff;
+}

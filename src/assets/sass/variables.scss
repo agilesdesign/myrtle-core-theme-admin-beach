@@ -1,0 +1,53 @@
+$border-radius:          0px;
+$border-radius-lg:       0px;
+$border-radius-sm:       0px;
+
+$enable-flex: true;
+
+$gray-dark:                 #4f5f6f !default;
+$gray:                      #818a91 !default;
+$gray-light:                #d7dde4 !default;
+$gray-lighter:              lighten($gray-light, 10%) !default;
+$gray-lightest:             lighten($gray-light, 15%) !default;
+
+$font-family-sans-serif: "Open Sans", sans-serif !default;
+
+$font-size-h1: 2.25rem !default;
+$font-size-h2: 1.75rem !default;
+$font-size-h3: 1.5rem !default;
+$font-size-h4: 1.25rem !default;
+$font-size-h5: 1rem !default;
+$font-size-h6: 0.75rem !default;
+
+$table-bg-hover:                $gray-lighter !default;
+
+$input-color:                    $gray-dark !default;
+
+$myrtle-blue: #006f71;
+$myrtle-blue-lightest: lighten($myrtle-blue, 12%);
+$myrtle-blue-lighter: lighten($myrtle-blue, 8%);
+$myrtle-blue-light: lighten($myrtle-blue, 4%);
+$myrtle-blue-dark: darken($myrtle-blue, 4%);
+$myrtle-blue-darker: darken($myrtle-blue, 8%);
+$myrtle-blue-darkest: darken($myrtle-blue, 12%);
+
+$myrtle-brown: #6e665a;
+$myrtle-brown-lightest: lighten($myrtle-brown, 12%);
+$myrtle-brown-lighter: lighten($myrtle-brown, 8%);
+$myrtle-brown-light: lighten($myrtle-brown, 4%);
+$myrtle-brown-dark: darken($myrtle-brown, 4%);
+$myrtle-brown-darker: darken($myrtle-brown, 8%);
+$myrtle-brown-darkest: darken($myrtle-brown, 12%);
+
+$myrtle-tan: #f9f3e9;
+$myrtle-tan-lightest: lighten($myrtle-tan, 12%);
+$myrtle-tan-lighter: lighten($myrtle-tan, 8%);
+$myrtle-tan-light: lighten($myrtle-tan, 4%);
+$myrtle-tan-dark: darken($myrtle-tan, 4%);
+$myrtle-tan-darker: darken($myrtle-tan, 8%);
+$myrtle-tan-darkest: darken($myrtle-tan, 12%);
+
+$myrtle-orange: #ffac30;
+
+$brand-primary: $myrtle-blue;
+$brand-warning: $myrtle-orange;

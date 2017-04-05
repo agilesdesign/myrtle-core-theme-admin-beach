@@ -1,0 +1,42 @@
+.flex {
+  display: flex;
+}
+
+.f-g-1 {
+  flex-grow: 1;
+  -moz-box-flex: 1;
+}
+
+.f-g-2 {
+  flex-grow: 2;
+  -moz-box-flex: 2;
+}
+
+.f-g-3 {
+  flex-grow: 3;
+  -moz-box-flex: 3;
+}
+
+.f-g-4 {
+  flex-grow: 4;
+  -moz-box-flex: 4;
+}
+
+.f-g-5 {
+  flex-grow: 5;
+  -moz-box-flex: 5;
+}
+
+.f-g-6 {
+  flex-grow: 6;
+  -moz-box-flex: 6;
+}
+
+.f-g-7 {
+  flex-grow: 7;
+  -moz-box-flex: 7;
+}
+
+.flex-inline {
+  display: inline-flex;
+}

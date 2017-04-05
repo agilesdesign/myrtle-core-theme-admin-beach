@@ -1,0 +1,128 @@
+#app {
+  display: flex;
+}
+
+#app {
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  height: 100vh;
+}
+
+#app-main {
+  overflow-y: auto;
+  height: 100%;
+}
+
+#page-title {
+  margin-bottom: 0.25rem;
+}
+
+#utility-header {
+  background-color: $myrtle-tan-darkest;
+}
+
+#utility-header .navbar {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+#dock, #debug {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#main-header, #support-header {
+  background-color: $myrtle-tan-lightest;
+}
+
+#utility-header, #main-header, #support-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+//#main-header, #support-header {
+//  border-bottom: 1px solid #d1d4d7;
+//}
+
+#main-header .navbar {
+  padding: 1rem 1.5rem;
+}
+
+#main-header .navbar .card {
+  margin-bottom: 0;
+}
+
+#support-header .navbar {
+  padding: 0.3rem 1rem;
+}
+
+#app-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+#support-header .breadcrumb {
+  padding: 0.5rem;
+  margin-bottom: 0;
+  background-color: $myrtle-tan-lightest;
+}
+
+#support-header #toolbar {
+  padding: 0.5rem;
+}
+
+#utility-header .user-utilities {
+  display:flex;
+  align-items: center;
+}
+
+.avatar {
+  align-items: center;
+  background-color: $myrtle-orange;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  width: 50px;
+  border: 0.15rem solid $myrtle-brown;
+}
+.circle {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.avatar .initials {
+  top: 12.5px; /* 25% of parent */
+  font-size: 25px; /* 50% of parent */
+  line-height: 25px; /* 50% of parent */
+  color: #fff;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+body {
+  color: $myrtle-brown;
+  background-color: $myrtle-tan-lightest;
+}
+
+.card {
+  box-shadow: 1px 1px 5px rgba(126, 142, 159, 0.1);
+}
+
+.fa-stack.notification.has-badge:after {
+  position: absolute;
+  right: 25%;
+  top: 15%;
+  content:  '';
+  font-size: 30%;
+  padding: .6em;
+  border-radius: 999px;
+  line-height: .75em;
+  color:  white;
+  background: rgba(255,0,0,.85);
+  text-align: center;
+  min-width: 1em;
+  font-weight: bold;
+}

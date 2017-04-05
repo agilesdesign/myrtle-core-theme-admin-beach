@@ -1,0 +1,17 @@
+{
+    "name": "agilesdesign/myrtle-core-theme-admin-beach",
+    "description": "Admin Theme for Myrtle WMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Myrtle\\Themes\\Admin\\Beach\\Theme\\": "src/Theme"
+        }
+    }
+}
