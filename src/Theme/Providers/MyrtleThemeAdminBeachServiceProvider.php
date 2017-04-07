@@ -1,12 +1,12 @@
 <?php
 
-namespace Myrtle\Core\Themes\Admin\Beach\Theme\Providers;
+namespace Myrtle\Themes\Admin\Beach\Theme\Providers;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use Myrtle\Users\Models\User;
+use Myrtle\Cpre\Users\Models\User;
 
 class MyrtleThemeAdminBeachServiceProvider extends ServiceProvider
 {
@@ -18,7 +18,7 @@ class MyrtleThemeAdminBeachServiceProvider extends ServiceProvider
     public function boot()
     {
 		$this->publishes([
-			base_path(). '/vendor/agilesdesign/myrtle-theme-admin-beach/src/public' => public_path(),
+			base_path(). '/vendor/agilesdesign/myrtle-core-theme-admin-beach/src/public' => public_path(),
 		], 'public');
 
 		View::composer(['admin::users.create', 'admin::vendors.contacts.create'], function ($view)
